@@ -1,0 +1,27 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A pakcage to teach myself webpack",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CNL-Dev/restaurant-page.git"
+  },
+  "author": "Caleb Lugo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CNL-Dev/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/CNL-Dev/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
