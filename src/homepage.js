@@ -8,6 +8,7 @@ function createHomepage() {
 
     const homepageTitle = document.createElement('h1');
     homepageTitle.classList.add('homepage-title');
+    homepageTitle.innerHTML = "Welcome!";
     homepage.appendChild(homepageTitle);
 
     const homepageImage = new Image();
