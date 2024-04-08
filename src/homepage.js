@@ -4,17 +4,15 @@ const contentContainer = document.querySelector('#content');
 function createHomepage() {
     const homepage = document.createElement('div');
     homepage.classList.add('homepage');
-    contentContainer.append(homepage);
+    contentContainer.appendChild(homepage);
 
     const homepageTitle = document.createElement('h1');
     homepageTitle.classList.add('homepage-title');
-    homepage.append(homepageTitle);
+    homepage.appendChild(homepageTitle);
 
     const homepageImage = new Image();
     homepageImage.src = img;
-    homepage.append(homepageImage);
-
-    return homepage;
+    homepage.appendChild(homepageImage);
 }
 
-export default createHomepage;
+export {createHomepage};
