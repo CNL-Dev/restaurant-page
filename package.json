@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/CNL-Dev/restaurant-page#readme",
   "devDependencies": {
+    "css-loader": "^7.1.0",
+    "file-loader": "^6.2.0",
+    "style-loader": "^4.0.0",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
   },
