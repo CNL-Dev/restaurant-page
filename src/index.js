@@ -1,15 +1,15 @@
-import {createHomepage} from "./homepage.js";
+import {createHomePage} from "./homepage.js";
 import { createMenuPage } from "./menupage.js";
 
-const homepageBtn = document.querySelector('#home');
+const homeBtn = document.querySelector('#home');
 const menuBtn = document.querySelector('#menu');
 const aboutBtn = document.querySelector('#about');
 
-createHomepage();
+createHomePage();
 
-homepageBtn.addEventListener('click', () => {
+homeBtn.addEventListener('click', () => {
     clear();
-    createHomepage();
+    createHomePage();
 });
 
 menuBtn.addEventListener('click', () => {
