@@ -1,3 +1,4 @@
+import { createAboutPage } from "./aboutpage.js";
 import {createHomePage} from "./homepage.js";
 import { createMenuPage } from "./menupage.js";
 
@@ -15,6 +16,11 @@ homeBtn.addEventListener('click', () => {
 menuBtn.addEventListener('click', () => {
     clear();
     createMenuPage();
+});
+
+aboutBtn.addEventListener('click', () => {
+    clear();
+    createAboutPage();
 });
 
 function clear() {
