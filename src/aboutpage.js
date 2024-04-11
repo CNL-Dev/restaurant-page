@@ -1,3 +1,4 @@
+import img from './img/chef.jpeg';
 const contentContainer = document.querySelector('#content');
 
 function createAboutPage() {
@@ -9,6 +10,10 @@ function createAboutPage() {
     aboutPageTitle.classList.add('about-page-title');
     aboutPageTitle.innerHTML = "About Us";
     aboutPage.appendChild(aboutPageTitle);
+
+    const aboutPageImage = new Image();
+    aboutPageImage.src = img;
+    aboutPage.appendChild(aboutPageImage);
 
     const aboutPageText = document.createElement('p');
     aboutPageText.classList.add('about-page-text');
