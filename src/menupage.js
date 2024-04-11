@@ -14,25 +14,45 @@ function createMenuPage() {
     menuItemContainer.classList.add('menu-item-container');
     menuPage.appendChild(menuItemContainer);
 
-    // Example item
-    const menuItem1 =  document.createElement('div');
-    menuItem1.classList.add('menu-item');
-    menuItemContainer.appendChild(menuItem1);
+    // Example item 1
+    const menuItemBurger =  document.createElement('div');
+    menuItemBurger.classList.add('menu-item');
+    menuItemContainer.appendChild(menuItemBurger);
 
-    const menuItem1Title = document.createElement('h2');
-    menuItem1Title.classList.add('menu-item-title');
-    menuItem1Title.innerHTML = "Item 1";
-    menuItem1.appendChild(menuItem1Title);
+    const menuItemBurgerTitle = document.createElement('h2');
+    menuItemBurgerTitle.classList.add('menu-item-title');
+    menuItemBurgerTitle.innerHTML = "Burger";
+    menuItemBurger.appendChild(menuItemBurgerTitle);
 
-    const menuItem1Desc = document.createElement('p');
-    menuItem1Desc.classList.add('menu-item-desc');
-    menuItem1Desc.innerHTML = "Item with lots of delicious flavor!";
-    menuItem1.appendChild(menuItem1Desc);
+    const menuItemBurgerDesc = document.createElement('p');
+    menuItemBurgerDesc.classList.add('menu-item-desc');
+    menuItemBurgerDesc.innerHTML = "Burger with lots of delicious flavor!";
+    menuItemBurger.appendChild(menuItemBurgerDesc);
 
-    const menuItem1Price = document.createElement('p');
-    menuItem1Price.classList.add('menu-item-price');
-    menuItem1Price.innerHTML = "$4.99";
-    menuItem1.appendChild(menuItem1Price);
+    const menuItemBurgerPrice = document.createElement('p');
+    menuItemBurgerPrice.classList.add('menu-item-price');
+    menuItemBurgerPrice.innerHTML = "$4.99";
+    menuItemBurger.appendChild(menuItemBurgerPrice);
+
+    // Example item 2
+    const menuItemSalad =  document.createElement('div');
+    menuItemSalad.classList.add('menu-item');
+    menuItemContainer.appendChild(menuItemSalad);
+
+    const menuItemSaladTitle = document.createElement('h2');
+    menuItemSaladTitle.classList.add('menu-item-title');
+    menuItemSaladTitle.innerHTML = "Salad";
+    menuItemSalad.appendChild(menuItemSaladTitle);
+
+    const menuItemSaladDesc = document.createElement('p');
+    menuItemSaladDesc.classList.add('menu-item-desc');
+    menuItemSaladDesc.innerHTML = "Low calorie salad!";
+    menuItemSalad.appendChild(menuItemSaladDesc);
+
+    const menuItemSaladPrice = document.createElement('p');
+    menuItemSaladPrice.classList.add('menu-item-price');
+    menuItemSaladPrice.innerHTML = "$2.99";
+    menuItemSalad.appendChild(menuItemSaladPrice);
 }
 
 export {createMenuPage};
