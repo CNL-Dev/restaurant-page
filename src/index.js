@@ -1,7 +1,7 @@
 import { createAboutPage } from "./aboutpage.js";
 import {createHomePage} from "./homepage.js";
 import { createMenuPage } from "./menupage.js";
-import './style.css'
+import './style.css';
 
 const homeBtn = document.querySelector('#home');
 const menuBtn = document.querySelector('#menu');
