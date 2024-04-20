@@ -1,6 +1,8 @@
 :root {
     --dark-brown: #5C4033;
     --black: #1A1A1A;
+    --white: #FFF;
+    --cream: #FFFDD0;
 }
 
 * {
@@ -38,6 +40,22 @@ h1 {
     padding-top: 8vh;
     padding-bottom: 5vh;
     background-color: var(--black);
+}
+
+.menu-item-container {
+    background-color: var(--cream);
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+}
+
+.menu-item {
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 10px;
 }
 
 #content {
