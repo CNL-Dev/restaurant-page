@@ -59,14 +59,23 @@ h1 {
 }
 
 .about-page {
+    margin: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20vh;
+    background-color: var(--cream);
+    border-radius: 10px;
 }
 
 .about-page-title {
     padding-bottom: 5vh;
+}
+
+.about-page-img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
 }
 
 .about-page-text {

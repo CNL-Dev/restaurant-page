@@ -13,6 +13,7 @@ function createAboutPage() {
 
     const aboutPageImage = new Image();
     aboutPageImage.src = img;
+    aboutPageImage.classList.add('about-page-img');
     aboutPage.appendChild(aboutPageImage);
 
     const aboutPageText = document.createElement('p');
